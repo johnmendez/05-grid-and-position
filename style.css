@@ -16,10 +16,10 @@ img {
   border-radius: 50%;
 }
 
+
 .banner {
   background-color: #4fc0ff;
   padding: 0 1rem;
-  border-radius: 2rem 2rem 0 0;
   /*margin: 0 2rem;*/
 }
 
@@ -65,15 +65,16 @@ img {
   position: relative;
   border-right: black solid 0.5rem;
   border-bottom: black solid 0.5rem;
-  padding: 1rem;
+  /*padding: 1rem;*/
 }
 
 .top-bar {
   background: #ffef5b;
   width: 100%;
-  height: 5rem;
+  height: 7rem;
   display: flex;
   align-items: center;
+  padding-left: 4rem;
 
 }
 
@@ -83,9 +84,9 @@ img {
 
   position: absolute;
   margin: 0;
-  top: -2rem;
+  top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .author{
@@ -93,7 +94,8 @@ img {
 
   position: absolute;
   margin: 0;
+  padding: 0;
   top: 0;
   left: 0%;
-  transform: translateX(-90%);
+  transform: translateX(-50%);
 }
